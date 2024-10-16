@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+}
+aside{
+    width: 30%;
+    min-height: 100vh;
+    border: 1px solid rgb(200, 212, 215);
+}
+
+.image img{
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid rgb(90, 81, 81);  
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(220, 243, 247);
+    padding: 0.7rem 1.25rem;
+}
+.first{
+    display: flex;
+    align-items: center;    
+    border: 1px solid rgb(220, 243, 247);
+}
+
+.first-text{
+    margin-left: 10px;
+}
+.first-text h3{
+    font-size: 0.7rem;
+}
+.first-text p{
+    font-size: 0.7rem;
+}
+.icon{
+    color: rgb(198, 205, 202);
+}
+
+.new-chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid rgb(216, 212, 212);
+    height: 80px;
+}
+
+.fa-regular{
+    padding: 1rem;
+}
+.fa-solid{
+    padding: 1rem;
+}
+button{
+    padding: 0.9rem;
+    background-color: rgb(183, 120, 243);
+    color: rgb(242, 246, 249);
+    border: none;
+    font-size: 1rem;    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+main h1{
+    font-size: 2rem;
+}
+main h2{
+    font-size: 0.8rem;
+}
+main img{
+    width: 30%;
+
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.contactos ul li{
+ border: 1px solid rgb(216, 212, 212); 
+}
+.contactos img{
+    width: 2rem;
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(117, 17, 96);
+}
+.fa-regular:hover{
+    cursor: pointer;
+    background-color: rgb(74, 71, 71);
+}
+.fa-solid:hover{
+    cursor: pointer;
+    background-color: rgb(74, 71, 71); 
+}
+.contact-list img{
+height: 2rem;
+}
+.first:hover{
+    cursor: pointer;
+    background-color: rgb(205, 205, 200);
+}
